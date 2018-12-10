@@ -1,0 +1,25 @@
+BODY {
+  margin: 0 20px;
+  background: #eee;
+  font-family: 'Arvo', serif;
+  line-height: 180%;
+}
+
+h1 {
+  line-height: 120%;
+  margin-top: 0;
+  text-align: center;
+}
+
+.card {
+  margin: 20px auto;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 100%;
+}
+
