@@ -33,3 +33,25 @@ h1 {
   bottom: 0;
 }
 
+.album h1 {
+  margin: 20px 0;
+}
+
+.album a {
+  display: block;
+  float: left;
+  line-height: 0;
+}
+
+.album img {
+  height: 100px;
+  padding: 0px;
+  margin: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 992px) {
+  .album img {
+    height: 200px;
+  }
+}
